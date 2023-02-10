@@ -21,7 +21,7 @@
    position:relative;
    z-index: 1;
 }
-.button{
+.button::before{
     content:"";
     background-color: black;
     position:absolute;
@@ -35,6 +35,6 @@
     z-index: -1;
 
 }
-.button:hover{
+.button:hover::before{
 transform:scaleX(1);
 }
